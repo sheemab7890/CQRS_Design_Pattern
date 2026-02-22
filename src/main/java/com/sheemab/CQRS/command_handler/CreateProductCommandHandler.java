@@ -6,6 +6,7 @@ package com.sheemab.CQRS.command_handler;
 import com.sheemab.CQRS.command.CreateProductCommand;
 import com.sheemab.CQRS.command_entity.Product;
 import com.sheemab.CQRS.events.ProductCreatedEvent;
+import com.sheemab.CQRS.exception.DuplicateProductException;
 import com.sheemab.CQRS.repository.ProductWriteRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
